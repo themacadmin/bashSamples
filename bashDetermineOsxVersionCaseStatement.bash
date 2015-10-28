@@ -15,7 +15,7 @@ case $macosxversion in
      10.11*)
           echo "El Capitan";;
      * )
-          echo "This is an unsupported version of OS X"
+          echo "This is an unknown version of OS X"
           exit;;
 esac
 

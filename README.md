@@ -5,3 +5,6 @@ This is my code notebook of commonly-used structures.
 bashDetermineOsxVersionCaseStatement.bash
 
 A sample case statement.
+
+## Create Backup File
+Creates a backup/copy of file1.txt

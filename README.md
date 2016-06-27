@@ -8,3 +8,6 @@ A sample case statement.
 
 ## Create Backup File
 Creates a backup/copy of file1.txt
+
+## Get free disk space in whole GB
+freeDiskSpaceGB.bash

@@ -1,3 +1,2 @@
-# Get free disk space
-freeDiskSpace=$(diskutil info /|grep "Free Space"|awk '{print $4}')
-freeDiskSpace="${freeDiskSpace%.*}"
+# Get free disk space rounded down to nearest GB
+freeDiskSpace=$(diskutil info /|awk '/Free Space|Available Space/ {print int($4)}')

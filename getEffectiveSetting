@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# variables
+domain=""
+key=""
+
+
+# derived variables
+domainArg="'$domain'"
+keyArg="'$key'"
+
+result=$(python -c "from Foundation import CFPreferencesCopyAppValue; print CFPreferencesCopyAppValue($keyArg, $domainArg)")
